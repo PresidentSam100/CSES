@@ -1,6 +1,5 @@
 // https://cses.fi/problemset/task/1072
 // Two Knights
-// 
  
 #include <iostream>
 #include <math.h>
