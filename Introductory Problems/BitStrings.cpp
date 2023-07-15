@@ -12,6 +12,7 @@ lli MOD = 1000000007;
 int main() {
 	cin >> n;
 	power = 1;
+	// We simply need to find (2^n) % MOD below
 	for (lli i = 0; i < n; i++) {
 	    power *= 2;
 	    power %= MOD;
