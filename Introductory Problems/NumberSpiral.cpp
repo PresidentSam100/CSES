@@ -14,6 +14,7 @@ int main() {
 		cin >> x >> y;
 		lli hi = max(x, y);
 		lli lo = min(x, y);
+		// Do arithmetic based on the min and max of each of x and y and their parities
 		if ((y % 2 == 1 && y == hi) || (x % 2 == 0 && x == hi)) {
 			cout << hi * hi - lo + 1 << endl;
 		} else {
