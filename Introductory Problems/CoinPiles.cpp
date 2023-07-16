@@ -12,7 +12,7 @@ int main() {
 	for (int i = 0; i < t; i++) {
 		cin >> a >> b;
 		// Observation 1: Total number of coins (a + b) must be divisible by 3.
-		// Observation 2: Bigger pile can't have more than twice as much as the small pile
+		// Observation 2: Bigger pile can't have more than twice as much as the smaller pile
 		if ((a + b) % 3 == 0 && max(a, b) <= 2 * min(a, b)) {
 			cout << "YES" << endl;
 		} else {
