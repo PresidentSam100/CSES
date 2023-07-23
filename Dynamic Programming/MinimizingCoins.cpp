@@ -30,7 +30,7 @@ int main()
 			}
 		}
 	}
-	// Possible only when value is not LLONG_MAX
+	// Possible only when the value is not LLONG_MAX
 	if (dp[x] == LLONG_MAX) {
 		cout << -1;
 	} else {
