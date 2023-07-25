@@ -20,7 +20,7 @@ int main() {
 	sort(arr, arr + n);
 	ans = 1;
 	for (ll i = 1; i < n; i++) {
-	    // If two adjacent values are distinct, add to ans
+	    // If two adjacent values are distinct, then increment ans count
 	    if (arr[i] != arr[i - 1]) {
 	        ans++;
 	    }
