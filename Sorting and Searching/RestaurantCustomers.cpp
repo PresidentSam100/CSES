@@ -11,7 +11,7 @@ pair<ll, ll> arr[400000];
 
 int main() {
 	cin >> n;
-	// Get ranges
+	// Get arrival and leaving times
 	for (ll i = 0; i < n; i++) {
 	    cin >> a >> b;
 	    arr[2 * i] = {a, 1};
